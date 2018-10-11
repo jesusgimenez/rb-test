@@ -40,6 +40,10 @@
      // NOTE : This function is used to authenticate your site and client key before able to use App Chat
      !function () { var t = window, e = document; function a() { var t = location.href + "|" + window.rainbowSettings.z, a = e.createElement("script"); a.type = "text/javascript", a.async = !0, a.src = "https://api.rapidrainbow.com/api/v1/widget/auth/" + btoa(t); var n = e.getElementsByTagName("script")[0]; n.parentNode.insertBefore(a, n) } t.attachEvent ? t.attachEvent("onload", a) : t.addEventListener("load", a, !1) }();
 </script>
+	
+</head>
+<body>
+	<h1>Rainbow Testing</h1>
 	<style>
 	.chat-messenger-frame, .chat-messenger-shadow {
 		height: calc(100% - 200px);
@@ -48,8 +52,5 @@
 		display:none;
 	}
 	</style>
-</head>
-<body>
-	<h1>Rainbow Testing</h1>
 </body>
 </html>
